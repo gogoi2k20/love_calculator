@@ -1,0 +1,54 @@
+
+h1{
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+font-size: 3.8rem;
+  color: yellow;
+  margin-top: 0;
+}
+body {
+  background-image: url('images/love.png');
+  height: 120vh;
+   background-size: cover;
+   background-position: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+input{
+  background-color: #3CBC8D;
+  color: black;
+  border: 2px solid red;
+  border-radius: 9px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.5rem;
+}
+.your_name{
+  height: 100px;
+   margin-right: 6rem;
+   margin-top: 4rem;
+}
+.your_lovers_name{
+  height: 100px;
+  margin-right: 3rem;
+}
+button{
+  height: 100px;
+   margin-right: 4rem;
+   width: 400px;
+   background-color: maroon;
+   color: white;
+   font-size: 2rem;
+   font-family: "Audiowide", sans-serif;
+   border: 2px solid red;
+   border-radius: 9px;
+}
+button:hover{
+    background-color: black;
+    cursor:pointer;
+}
+footer{
+  color: white;
+  margin-top: 7rem;
+  text-align: center;
+}

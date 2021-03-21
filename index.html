@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> love calculator</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+   <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <h1>Love Calculator</h1>
+    <input class="your_name" placeholder="enter your name" onchange="update1()" required>
+
+    <input class="your_lovers_name" placeholder="enter your lover's name" onchange="update2()" required >
+    <br>
+      <br>
+        <br>
+          <br>
+            <br>
+              <br>
+                <br>
+    <button id="calculate">Calculate</button>
+
+<script >
+  let mac='';
+   let mac1='';
+   var input1=document.getElementsByClassName("your_name");
+   var input2=document.getElementsByClassName("your_lovers_name");
+   update1= ()=> {
+     mac=input1.value;
+   }
+   update2= ()=> {
+     mac1=input2.value;
+   }
+
+  var but=document.getElementById("calculate");
+  but.addEventListener("click",function (){
+    if(mac1!=='' || mac!==''){
+    var x=Math.floor(Math.random() * 97);
+    if(x>=96){
+      but.textContent="Love percentage "+"="+98+"%";
+    }
+    else if(x>50){
+      but.textContent="Love percentage "+"="+x+"%";
+    }
+  else{//(x<=50){
+    var a=x+49;
+      but.textContent="Love percentage "+"="+a+"%";
+  //  }
+}
+  }
+  else {
+    but.textContent="Names not entered!";
+  }
+
+  });
+</script>
+  </body>
+
+  <footer>
+    coded with ❤️ by gaurav
+  </footer>
+</html>
