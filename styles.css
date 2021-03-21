@@ -7,44 +7,48 @@ font-size: 3.8rem;
   margin-top: 0;
 }
 body {
-  background-image: url('images/love.png');
-  height: 120vh;
+/*  background-image: url('images/love.png');*/
+  height: 100vh;
+  background-color: black;
    background-size: cover;
-   background-position: center;
-   margin-top: 20px;
-   margin-bottom: 20px;
+   background-position: center center;
+   background-attachment: scroll;
+  /* background-color: inherit;*/
+   margin-top: 4%;
+   margin-bottom: 3.8%;
    text-align: center;
 }
 input{
   background-color: #3CBC8D;
   color: black;
-  border: 2px solid red;
-  border-radius: 9px;
+
+  border: 0.1325em solid red;
+  border-radius: 0.7em;
   font-family: "Audiowide", sans-serif;
   font-size: 1.5rem;
 }
 .your_name{
-  height: 100px;
+  height: 6.25rem;
    margin-right: 6rem;
    margin-top: 4rem;
 }
 .your_lovers_name{
-  height: 100px;
+  height:6.25rem;
   margin-right: 3rem;
 }
 button{
-  height: 100px;
+  height: 3.25em;
    margin-right: 4rem;
-   width: 400px;
-   background-color: maroon;
+   width: 25rem;
+   background-color:#A52A2A ;
    color: white;
    font-size: 2rem;
    font-family: "Audiowide", sans-serif;
-   border: 2px solid red;
-   border-radius: 9px;
+   border: 0.02rem solid red;
+   border-radius: 0.8em;
 }
 button:hover{
-    background-color: black;
+    background-color:red;
     cursor:pointer;
 }
 footer{
