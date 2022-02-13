@@ -48,15 +48,20 @@
     else if(x>70){//50
       but.textContent="Love percentage "+"="+x+"%";
     }
-  else{//(x<=50){
-    var a=83;
+  else if(x>60){//(x<=50){
+    var a=x+15;
       but.textContent="Love percentage "+"="+a+"%";
   //  }
-}
   }
-  else {
-    but.textContent="Names not entered!!!";
+  else if(x>50) {
+    var a=x+25;  
+    but.textContent="Love percentage "+"="+a+"%";
   }
+  else if(x>40){
+    var a=x+30 ;
+    but.textContent="Love percentage "+"="+a+"%";
+  }
+    else  { but.textContent="Names not entered!!!";}
 
   });
 </script>
